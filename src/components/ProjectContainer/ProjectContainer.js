@@ -21,6 +21,8 @@ const ProjectContainer = ({ project }) => (
     {project.sourceCode && (
       <a
         href={project.sourceCode}
+        target="_blank"
+        rel="noreferrer"
         aria-label="source code"
         className="link link--icon"
       >
@@ -30,6 +32,8 @@ const ProjectContainer = ({ project }) => (
 
     {project.livePreview && (
       <a
+        target="_blank"
+        rel="noreferrer"
         href={project.livePreview}
         aria-label="live preview"
         className="link link--icon"

@@ -1,16 +1,17 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: "https://rajshekhar26.github.io/cleanfolio",
+
   title: "JS.",
 };
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: "Davud Čarovac",
+  name: "Davud",
   role: "Frontend Developer",
   description:
-    "Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.",
-  resume: "https://example.com",
+    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with technologies such as Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. I am a fast learner and always want to learn new technologies and new things from more experienced developers.",
+
+  resume: "Resume",
   social: {
     linkedin: "https://www.linkedin.com/in/davud-čarovac-973095286/",
     github: "https://github.com/davudxD",
@@ -18,29 +19,28 @@ const about = {
 };
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: "Project 1",
+    name: "Youtube Clone",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
-    sourceCode: "https://github.com",
+      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
+    stack: ["React, Material UI"],
+    sourceCode: "https://github.com/davudxD/Youtube-clone",
     livePreview: "https://github.com",
   },
   {
-    name: "Project 2",
+    name: "Football App",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
+      "The latest news from world of football, match overview, live results, overview of  results of all leagues in the world, top 5 leagues, player statistics, standings. Fetching data from multiple sources. ",
+    stack: ["React,Redux toolkit"],
     sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    livePreview:
+      "https://drive.google.com/file/d/1MqZ0PRXzWEZl8No9Ugc6im3miHMTfd5Z/view",
   },
   {
-    name: "Project 3",
+    name: "mTranslate",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["SASS", "TypeScript", "React"],
+      "Mtranslate allows users to translate applications from one language to another. I worked with team on this application, and worked with multiple endpoints on admin pages to track users and applications.",
+    stack: ["React, Material UI"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
@@ -54,18 +54,15 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Redux",
-  "SASS",
+  "Redux toolkit",
   "Material UI",
   "Git",
-  "CI/CD",
-  "Jest",
-  "Enzyme",
+  "Firebase",
 ];
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: "johnsmith@mail.com",
+  email: "carovacdavud6@mail.com",
 };
 
 export { header, about, projects, skills, contact };

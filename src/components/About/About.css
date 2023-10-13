@@ -14,11 +14,14 @@
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  text-align: center;
 }
 
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
+  display: flex;
+  align-items: center;
 }
 
 .about .link--icon {
