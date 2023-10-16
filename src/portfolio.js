@@ -28,30 +28,6 @@ const projects = [
     livePreview: "https://github.com",
   },
   {
-    name: "Youtube Clone",
-    description:
-      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
-    stack: ["React, Material UI"],
-    sourceCode: "https://github.com/davudxD/Youtube-clone",
-    livePreview: "https://github.com",
-  },
-  {
-    name: "Youtube Clone",
-    description:
-      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
-    stack: ["React, Material UI"],
-    sourceCode: "https://github.com/davudxD/Youtube-clone",
-    livePreview: "https://github.com",
-  },
-  {
-    name: "Youtube Clone",
-    description:
-      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
-    stack: ["React, Material UI"],
-    sourceCode: "https://github.com/davudxD/Youtube-clone",
-    livePreview: "https://github.com",
-  },
-  {
     name: "Football App",
     description:
       "The latest news from world of football, match overview, live results, overview of  results of all leagues in the world, top 5 leagues, player statistics, standings. Fetching data from multiple sources. ",

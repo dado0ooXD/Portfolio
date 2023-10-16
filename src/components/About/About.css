@@ -24,6 +24,10 @@
   align-items: center;
 }
 
+.about__desc {
+  color: lightgray;
+}
+
 .about .link--icon {
   margin-right: 0.8em;
 }
@@ -34,7 +38,13 @@
 
 @media (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin-top: 2em;
+  }
+}
+
+@media (max-width: 493px) {
+  .about__role {
+    font-size: 23px;
   }
 }
