@@ -11,6 +11,9 @@ const Navbar = () => {
   const [{ themeName, toggleTheme }] = useContext(ThemeContext);
   const [showNavList, setShowNavList] = useState(false);
 
+  const tema = localStorage.getItem("themeName");
+  console.log(tema);
+
   const toggleNavList = () => setShowNavList(!showNavList);
 
   return (

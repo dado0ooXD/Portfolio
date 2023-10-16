@@ -9,7 +9,7 @@ const about = {
   name: "Davud",
   role: "Frontend Developer",
   description:
-    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with technologies such as Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. I am a fast learner and always want to learn new technologies and new things from more experienced developers.",
+    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. I am a fast learner and always want to learn new technologies and new things from more experienced developers.",
 
   resume: "Resume",
   social: {
@@ -19,6 +19,30 @@ const about = {
 };
 
 const projects = [
+  {
+    name: "Youtube Clone",
+    description:
+      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
+    stack: ["React, Material UI"],
+    sourceCode: "https://github.com/davudxD/Youtube-clone",
+    livePreview: "https://github.com",
+  },
+  {
+    name: "Youtube Clone",
+    description:
+      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
+    stack: ["React, Material UI"],
+    sourceCode: "https://github.com/davudxD/Youtube-clone",
+    livePreview: "https://github.com",
+  },
+  {
+    name: "Youtube Clone",
+    description:
+      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
+    stack: ["React, Material UI"],
+    sourceCode: "https://github.com/davudxD/Youtube-clone",
+    livePreview: "https://github.com",
+  },
   {
     name: "Youtube Clone",
     description:
