@@ -9,7 +9,7 @@ const about = {
   name: "Davud",
   role: "Frontend Developer",
   description:
-    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. I am a fast learner and always want to learn new technologies and new things from more experienced developers.",
+    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. Also i have strong knowledge in working with API's. I am a fast learner and always want to learn new technologies and new things from more experienced developers.",
 
   resume: "Resume",
   social: {

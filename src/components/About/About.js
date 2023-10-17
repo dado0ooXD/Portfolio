@@ -18,7 +18,8 @@ const About = () => {
       <div className="about__contact center">
         {resume && (
           <a
-            href="https://www.dropbox.com/scl/fi/znmgj6sfo0hvyac0s9xbi/Resume.pdf?rlkey=3ovjrj2k3qwfop63bmei8asfz&dl=0"
+            href="Resume.pdf"
+            download="Resume.pdf"
             target="_blank"
             rel="noreferrer"
           >
