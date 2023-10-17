@@ -2,13 +2,16 @@ import { header } from "../../portfolio";
 import logoD from "../../contexts/letter-d_5943371.png";
 import Navbar from "../Navbar/Navbar";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { title } = header;
 
   return (
     <header className="header center">
-      <img src={logoD} alt="logo" id="d" />
+      <Link to="/">
+        <img src={logoD} alt="logo" id="d" />
+      </Link>
       {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.5 47.5" id="d">
         <defs>
           <clipPath id="a">
