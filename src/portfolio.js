@@ -31,16 +31,16 @@ const projects = [
     name: "Football App",
     description:
       "The latest news from world of football, match overview, live results, overview of  results of all leagues in the world, top 5 leagues, player statistics, standings. Fetching data from multiple sources. ",
-    stack: ["React", "Redux toolkit"],
+    stack: ["React", "Redux tk"],
     sourceCode: "https://github.com",
     livePreview:
       "https://drive.google.com/file/d/1MqZ0PRXzWEZl8No9Ugc6im3miHMTfd5Z/view",
   },
   {
-    name: "mTranslate",
+    name: "Ladybug",
     description:
-      "Mtranslate allows users to translate applications from one language to another. I worked with team on this application, and worked with multiple endpoints on admin pages to track users and applications.",
-    stack: ["React", "Material UI"],
+      "CURRENTLY UNDER DEVELOPMENT Ladybug is a social media web application I built to practise Redux and Firebase. Features include CRUD functionality, posts, user authentication, likes, comments and server-side rendering.",
+    stack: ["React", "Redux tk", "Material UI", "Firebase"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
