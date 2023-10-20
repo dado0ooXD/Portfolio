@@ -1,11 +1,4 @@
-const header = {
-  // all the properties are optional - can be left empty or deleted
-
-  title: "JS.",
-};
-
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: "Davud",
   role: "Frontend Developer",
   description:
@@ -47,8 +40,6 @@ const projects = [
 ];
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   "HTML",
   "CSS",
   "JavaScript",
@@ -60,8 +51,7 @@ const skills = [
 ];
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: "carovacdavud6@mail.com",
 };
 
-export { header, about, projects, skills, contact };
+export { about, projects, skills, contact };
