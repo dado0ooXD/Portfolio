@@ -2,7 +2,7 @@ const about = {
   name: "Davud",
   role: "Frontend Developer",
   description:
-    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. Also i have strong knowledge in working with API's. I am a fast learner and always want to learn new technologies and new things from more experienced developers.",
+    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. Also i have strong knowledge in working with API's. I am a fast learner and I enjoy learning new things from more experienced developers. I plan to start learning new technologies such as NextJS and React Native.",
 
   resume: "Resume",
   social: {
@@ -18,24 +18,31 @@ const projects = [
       "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
     stack: ["React", "Material UI"],
     sourceCode: "https://github.com/davudxD/Youtube-clone",
-    livePreview: "https://github.com",
+    livePreview: "https://github.com/davudxD",
   },
   {
     name: "Football App",
     description:
       "The latest news from world of football, match overview, live results, overview of  results of all leagues in the world, top 5 leagues, player statistics, standings. Fetching data from multiple sources. ",
     stack: ["React", "Redux tk"],
-    sourceCode: "https://github.com",
-    livePreview:
-      "https://drive.google.com/file/d/1MqZ0PRXzWEZl8No9Ugc6im3miHMTfd5Z/view",
+    sourceCode: "https://github.com/davudxD/Football-App",
+    livePreview: "https://footballappdavud.netlify.app",
   },
   {
     name: "Ladybug",
     description:
-      "CURRENTLY UNDER DEVELOPMENT Ladybug is a social media web application I built to practise Redux and Firebase. Features include CRUD functionality, posts, user authentication, likes, comments and server-side rendering.",
+      "Ladybug is a social media web application I built to practise Redux and Firebase. Features include CRUD functionality, posts, user authentication, likes and comments.",
     stack: ["React", "Redux tk", "Material UI", "Firebase"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    sourceCode: "https://github.com/davudxD/Ladybug",
+    livePreview: "https://ladybugapp.netlify.app",
+  },
+  {
+    name: "Real Estate",
+    description:
+      "Beautiful Real Estate template made with Material UI to show my CSS skills. ",
+    stack: ["React", "Material UI"],
+    sourceCode: "",
+    livePreview: "https://realestatedavud.netlify.app/",
   },
 ];
 
@@ -48,6 +55,7 @@ const skills = [
   "Material UI",
   "Git",
   "Firebase",
+  "Typescript",
 ];
 
 const contact = {

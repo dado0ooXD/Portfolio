@@ -4,6 +4,10 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .project:hover {
