@@ -18,7 +18,7 @@ const projects = [
       "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
     stack: ["React", "Material UI"],
     sourceCode: "https://github.com/davudxD/Youtube-clone",
-    livePreview: "https://github.com/davudxD",
+    livePreview: "https://github.com/davudxD/Youtube-clone",
   },
   {
     name: "Football App",
