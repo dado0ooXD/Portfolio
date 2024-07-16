@@ -2,7 +2,7 @@ const about = {
   name: "Davud",
   role: "Frontend Developer",
   description:
-    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with Javascript, React.js, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. Also i have strong knowledge in working with API's. I am a fast learner and I enjoy learning new things from more experienced developers. I plan to start learning new technologies such as NextJS and React Native.",
+    "I am software developer from Serbia. Right now I'm focused on Frontend technologies, working with Javascript/Typescript, React.js, React Native, Redux toolkit as state management, Responsive web design with Material UI and Bootstrap CSS frameworks. Also i have strong knowledge in working with API's. I am a fast learner and I enjoy learning new things from more experienced developers. I plan to start learning new technologies such as NextJS.",
 
   resume: "Resume",
   social: {
@@ -12,14 +12,6 @@ const about = {
 };
 
 const projects = [
-  {
-    name: "Youtube Clone",
-    description:
-      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
-    stack: ["React", "Material UI"],
-    sourceCode: "https://github.com/davudxD/Youtube-clone",
-    livePreview: "https://github.com/davudxD/Youtube-clone",
-  },
   {
     name: "Football App",
     description:
@@ -44,6 +36,22 @@ const projects = [
     sourceCode: "",
     livePreview: "https://realestatedavud.netlify.app/",
   },
+  {
+    name: "Paint app",
+    description:
+      "Simple Paint app. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    stack: ["React"],
+    sourceCode: "https://github.com/dado0ooXD/paint",
+    livePreview: "https://paint-app-davud.netlify.app",
+  },
+  {
+    name: "Youtube Clone",
+    description:
+      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
+    stack: ["React", "Material UI"],
+    sourceCode: "https://github.com/davudxD/Youtube-clone",
+    livePreview: "https://github.com/davudxD/Youtube-clone",
+  },
 ];
 
 const skills = [
@@ -56,6 +64,7 @@ const skills = [
   "Git",
   "Firebase",
   "Typescript",
+  "React Native",
 ];
 
 const contact = {

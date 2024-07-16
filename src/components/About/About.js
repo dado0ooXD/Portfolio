@@ -18,8 +18,8 @@ const About = () => {
       <div className="about__contact center">
         {resume && (
           <a
-            href="myResume.pdf"
-            download="Resume.pdf"
+            href="myresume.pdf"
+            download="myresume.pdf"
             target="_blank"
             rel="noreferrer"
           >
