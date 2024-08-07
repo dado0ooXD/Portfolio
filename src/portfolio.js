@@ -39,18 +39,10 @@ const projects = [
   {
     name: "Paint app",
     description:
-      "Simple Paint app. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Paint app.  An ordinary paint application where the user can draw on the board. Enables changing the color, thickness and opacity of the pen",
     stack: ["React"],
     sourceCode: "https://github.com/dado0ooXD/paint",
     livePreview: "https://paint-app-davud.netlify.app",
-  },
-  {
-    name: "Youtube Clone",
-    description:
-      "Youtube clone with the same options for watching videos,  browsing content, sorting content, searching videos as on real Youtube. Fetching data from RapidAPI the world's largest API hub. ",
-    stack: ["React", "Material UI"],
-    sourceCode: "https://github.com/davudxD/Youtube-clone",
-    livePreview: "https://github.com/davudxD/Youtube-clone",
   },
 ];
 
@@ -65,6 +57,8 @@ const skills = [
   "Firebase",
   "Typescript",
   "React Native",
+  "Tailwind CSS",
+  "Gitlab",
 ];
 
 const contact = {

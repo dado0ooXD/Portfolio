@@ -2,7 +2,7 @@ import { about } from "../../portfolio";
 import "./About.css";
 
 const About = () => {
-  const { name, role, description, resume, social } = about;
+  const { name, role, description, resume } = about;
 
   return (
     <div className="about center">
@@ -18,8 +18,8 @@ const About = () => {
       <div className="about__contact center">
         {resume && (
           <a
-            href="frontendCV.pdf"
-            download="frontendCV.pdf"
+            href="Davud_Carovac-CV.pdf"
+            download="Davud_Carovac-CV.pdf"
             target="_blank"
             rel="noreferrer"
           >
